@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar test</title>
+
+    <style>
+        nav {
+            display: flex;
+            transition-duration: 50ms;
+        }
+        ul {
+            display: none;
+            transition-duration: 50ms;
+        }
+    </style>
 </head>
 <body>
     <nav>
         <div><h1>heyhovie</h1></div>
         <div>
+            <p onclick="dropper()">Menu</p>
             <ul>
                 <li>contact</li>
                 <li>socials</li>
@@ -16,5 +28,15 @@
             </ul>
         </div>
     </nav>
+
+    <script>
+        var myNav = document.getElementsByTagName("ul")
+
+        function dropper(){
+            for(let i = 0; i<5; i++){
+                myNav[i].style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
