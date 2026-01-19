@@ -7,12 +7,21 @@
 
     <style>
         nav {
-            display: flex;
-            transition-duration: 50ms;
+            /* display: flex; */
+            transition: height 1s;
+            /* transition-duration: 50ms; */
         }
         ul {
+            background-color: grey;
             display: none;
-            transition-duration: 50ms;
+            transition: display 1s;
+            /* transition-duration: 50ms; */
+        }
+        p {
+            cursor: pointer;
+        }
+        .menutoggled {
+            display: none;
         }
     </style>
 </head>
@@ -20,7 +29,7 @@
     <nav>
         <div><h1>heyhovie</h1></div>
         <div>
-            <p onclick="dropper()">Menu</p>
+            <p onclick="dropper(this)">Menu</p>
             <ul>
                 <li>contact</li>
                 <li>socials</li>
@@ -32,10 +41,20 @@
     <script>
         var myNav = document.getElementsByTagName("ul")
 
-        function dropper(){
-            for(let i = 0; i<5; i++){
-                myNav[i].style.display = 'block'
+        function dropper(menu){
+            if (menu.innerHTML == "Menu" ){
+                menu.innerHTML = "Close"
+                for(let i = 0; i<5; i++){
+                    myNav[i].style.display = 'block'
+                }
+            } else {
+                menu.innerHTML = "Menu"
+                for(let i = 0; i<5; i++){
+                    myNav[i].style.display = 'none'
+                }
             }
+            
+            
         }
     </script>
 </body>
