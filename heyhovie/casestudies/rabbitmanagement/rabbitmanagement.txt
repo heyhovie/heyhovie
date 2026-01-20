@@ -1,1 +1,44 @@
 Project 5 - Rabbitry Success Tracker (JavaScript Web App)
+
+Project Title: The Rabbitry Success Tracker
+Role: Instructional Designer & Lead Developer
+
+Tools: JavaScript (ES6+), CSS3, HTML5
+
+Target Audience: Small-scale farmers in emerging agricultural markets.
+
+1. The Challenge (The "Why")
+
+In rural agriculture, specialized knowledge (Cuniculture) is often locked away in dense manuals or expensive textbooks. Local farmers were experiencing a 30% kit mortality rate due to missed biological milestones. The challenge was to provide expert-level guidance that was accessible, localized, and actionable on low-end mobile devices.
+
+2. The Solution (The "How")
+
+I developed a Mobile-First Electronic Performance Support System (EPSS). Instead of a passive video or a static PDF, I built a custom JavaScript application that transforms a single data point—the mating date—into a complete, interactive instructional timeline.
+
+3. Key Instructional Design Features
+
+Just-in-Time Learning (JIT): Information is "chunked" into milestones. Users aren't overwhelmed with Day 45 information on Day 1; they see exactly what is relevant to the current stage of the breeding cycle.
+
+Scaffolding for Novices: Using a toggle system, I embedded "Pro-Tips" that explain the why behind the what (e.g., explaining territorial behavior to justify why a doe must be moved to the buck’s cage).
+
+Reduced Cognitive Load: I prioritized a high-contrast, "clean-UI" design to ensure readability in outdoor farm environments, reducing the mental effort required to navigate the tool.
+
+4. The Intersection of My Skills
+
+This project demonstrates my ability to bridge three distinct worlds:
+
+Web Development: Writing clean, efficient logic to handle date calculations and responsive UI.
+
+Pedagogy: Applying Andragogy (Adult Learning Theory) to ensure the content is practical and goal-oriented.
+
+Multimedia Background: Leveraging my film and revision-content experience to write scripts and create visual guides that are technically accurate and easy to follow.
+
+Pro-Tip for your Portfolio Layout:
+
+Since you have a film degree, consider recording a 60-second "Loom" or "Screen-cast" of you using the app.
+
+Show the app on a mobile view.
+
+Talk through one design choice (e.g., "I chose this red alert color for the Kindling day because it's a high-stakes event").
+
+This proves your communication skills and "walks" the hiring manager through your thinking.
