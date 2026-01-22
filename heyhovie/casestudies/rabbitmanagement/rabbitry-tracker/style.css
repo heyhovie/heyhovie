@@ -1,0 +1,76 @@
+:root {
+    --primary: #2e7d32; /* Deep Green for Agriculture */
+    --accent: #d32f2f;  /* Critical Red */
+    --bg: #f5f5f5;
+    --card-bg: #ffffff;
+    --text: #333333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.app-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 { color: var(--primary); text-align: center; }
+
+.input-section {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card {
+    background: var(--card-bg);
+    border-left: 8px solid var(--primary);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    animation: slideIn 0.3s ease-out;
+}
+
+.card.critical { border-left-color: var(--accent); }
+
+.card h3 { margin: 0; color: var(--primary); }
+.card .date { font-weight: bold; font-size: 0.9rem; color: #666; }
+.card .tip { 
+    background: #e8f5e9; 
+    padding: 10px; 
+    border-radius: 4px; 
+    font-style: italic; 
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

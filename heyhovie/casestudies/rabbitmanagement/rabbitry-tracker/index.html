@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbitry Success Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-container">
+        <header>
+            <h1>Rabbitry Success Tracker</h1>
+            <p>Select mating date to generate your care timeline.</p>
+        </header>
+
+        <section class="input-section">
+            <label for="mating-date">Mating Date:</label>
+            <input type="date" id="mating-date">
+            <button id="calculate-btn">Generate Timeline</button>
+        </section>
+
+        <section id="timeline" class="timeline-container">
+            <div class="placeholder">Select a date above to begin.</div>
+        </section>
+    </main>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
