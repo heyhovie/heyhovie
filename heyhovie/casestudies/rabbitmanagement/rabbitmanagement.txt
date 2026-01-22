@@ -11,6 +11,60 @@ Target Audience: Small-scale farmers in emerging agricultural markets.
 
 In rural agriculture, specialized knowledge (Cuniculture) is often locked away in dense manuals or expensive textbooks. Local farmers were experiencing a 30% kit mortality rate due to missed biological milestones. The challenge was to provide expert-level guidance that was accessible, localized, and actionable on low-end mobile devices.
 
+PERSONA
+Here is a User Persona for your Rabbitry Success Tracker, designed to showcase your empathy and strategic thinking as an ID.
+
+User Persona: "Baba" Moyo
+The Small-Scale Emerging Farmer
+
+👤 Profile
+
+Age: 45–55
+
+Location: Peri-urban or rural agricultural zone.
+
+Role: Runs a diversified small-holding (chickens, garden, and recently, rabbits).
+
+Experience: Highly skilled in general farming but new to the specific biological rigors of "Rex" or "New Zealand White" rabbit breeds.
+
+📱 Tech Habits
+
+Primary Device: An entry-level Android smartphone with a cracked screen protector.
+
+Connectivity: Uses mobile data; connection can be "spotty."
+
+App Usage: Uses WhatsApp and Facebook daily. He is comfortable with "scrolling" and "tapping" but gets frustrated by complex menus or tiny text.
+
+🎯 Goals & Motivations
+
+Economic Stability: He wants to sell healthy fryers to local restaurants to pay for his children's school fees.
+
+Efficiency: He is busy. He doesn't want to read a manual; he wants to know what to do today.
+
+Legacy: He wants to build a system his teenage son can help manage.
+
+⚠️ Pain Points (The "Why" for your App)
+
+Memory Overload: He currently tracks breeding dates on a paper calendar in the barn, which gets dirty, wet, or lost.
+
+Kit Mortality: He lost his last litter because he forgot to put the nesting box in on time, and the kits were born on the wire floor.
+
+Information Jargon: Online forums are too technical and use imperial units (lb/°F) while he uses metric (kg/°C).
+
+🛠 How this Persona Influences Your Design (The "ID Justification")
+When you present this in your portfolio, add a section called "Design Decisions Based on Persona". This is what wins you the job:
+
+Offline-First/Low Data: "Because Baba Moyo has spotty internet, I built the JavaScript logic to run client-side once the page is loaded, ensuring he can check his dates in the middle of a field without a signal."
+
+High-Contrast UI: "Knowing he uses his phone in direct sunlight, I used a high-contrast 'Dark Mode' or high-visibility color palette and large 20px+ font sizes."
+
+One-Touch Interaction: "To accommodate a user who might be working with his hands, I designed a 'Date Picker' that requires minimal typing."
+
+Micro-Learning: "Instead of a 'Resources' tab, I embedded 'Pro-Tips' directly into the timeline cards so the learning is contextualized to the specific date."
+
+Next Step for You:
+To make this persona feel "real" in your portfolio, you could include a photo (stock or AI-generated) of a farmer in your region.
+
 2. The Solution (The "How")
 
 I developed a Mobile-First Electronic Performance Support System (EPSS). Instead of a passive video or a static PDF, I built a custom JavaScript application that transforms a single data point—the mating date—into a complete, interactive instructional timeline.
