@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Pilcrow';
+    src: url('assets/fonts/Pilcrow-Semibold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Pilcrow Variable';
+    src: url('assets/fonts/PilcrowVariable-Regular.woff2') format('woff2'),
+        url('assets/fonts/PilcrowVariable-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pilcrow';
+    src: url('assets/fonts/Pilcrow-Regular.woff2') format('woff2'),
+        url('assets/fonts/Pilcrow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pilcrow';
+    src: url('assets/fonts/Pilcrow-Bold.woff2') format('woff2'),
+        url('assets/fonts/Pilcrow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pilcrow';
+    src: url('assets/fonts/Pilcrow-Medium.woff2') format('woff2'),
+        url('assets/fonts/Pilcrow-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pilcrow';
+    src: url('assets/fonts/Pilcrow-Heavy.woff2') format('woff2'),
+        url('assets/fonts/Pilcrow-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} */
+
+p {
+    font-family: 'Pilcrow Semibold';
+}
