@@ -16,7 +16,12 @@
 
 
     .brand-icon {
-        font-family: Alumni Sans SemiBold Italic;
+        color: #1e1e24;
+        font-family: SF Mono Regular;
+
+        font-size: 1.25rem;
+        font-weight: 600;
         letter-spacing: -0.125rem;
         margin: 0.5rem 1rem;
+        text-decoration: none;
     }
