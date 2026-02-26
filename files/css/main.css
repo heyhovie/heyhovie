@@ -1,0 +1,7 @@
+    * {
+        font-family: SF Mono Regular;
+    }
+
+    nav {
+        display: flexbox;
+    }
