@@ -1,27 +1,46 @@
-    * {
-        font-family: SF Mono Regular;
-    }
+* {
+    font-family: SF Mono Regular;
+}
 
 
-    body{
-        background-color: #fbfbfb;
-    }
+body{
+    background-color: #fbfbfb;
+}
 
+header {
+    padding: 0.5rem;
+}
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+nav>a{
+    background-color: #7067cf;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
 
-    .brand-icon {
-        color: #1e1e24;
-        font-family: SF Mono Regular;
+.nav-brand {
+    color: blue;
+    margin: 0.5rem 1rem;
+}
 
-        font-size: 1.25rem;
-        font-weight: 600;
-        letter-spacing: -0.125rem;
-        margin: 0.5rem 1rem;
-        text-decoration: none;
-    }
+.nav-link {
+color: #1e1e24;
+margin: 0.5rem 0 0.5rem 2rem;
+text-decoration: none;
+}
+
+.nav-link:hover{
+    color: blue;
+}
+
+.hero-section h1{
+    color: #7067cf;
+    font-size: 5.25rem;
+    font-weight: 500;
+}
