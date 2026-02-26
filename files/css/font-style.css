@@ -94,3 +94,12 @@
     font-weight: normal;
     src: local('SF Mono Heavy Italic'), url('../assets/sf-mono-webfont/SFMonoHeavyItalic.woff') format('woff');
     }
+
+    /* #### __________________________________________________________________________ #### */
+
+    @font-face {
+    font-family: 'Alumni Sans SemiBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlumniSansSC-SemiBoldItalic'), url('../assets/alumni-sans-sc/AlumniSansSC-SemiBoldItalic.ttf') format('ttf');
+    }

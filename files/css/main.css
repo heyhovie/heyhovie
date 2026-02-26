@@ -2,6 +2,21 @@
         font-family: SF Mono Regular;
     }
 
+
+    body{
+        background-color: #fbfbfb;
+    }
+
+
     nav {
-        display: flexbox;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .brand-icon {
+        font-family: Alumni Sans SemiBold Italic;
+        letter-spacing: -0.125rem;
+        margin: 0.5rem 1rem;
     }
