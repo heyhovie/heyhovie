@@ -3,12 +3,16 @@
 }
 
 
-body{
+body {
     background-color: #fbfbfb;
 }
 
+p {
+    color: #1e1e24;
+}
+
 header {
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 nav {
@@ -35,12 +39,68 @@ margin: 0.5rem 0 0.5rem 2rem;
 text-decoration: none;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: blue;
 }
 
-.hero-section h1{
+section {
+    padding: 1.25rem;
+}
+.hero-section h1 {
     color: #7067cf;
-    font-size: 5.25rem;
+    font-size: 3.5rem;
     font-weight: 500;
+    margin: 2rem auto;
+}
+
+.portfolio-heading {
+    color: #1e1e24;
+    font-size: 1.5rem;
+}
+
+.portfolio-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-tags > p {
+    color: #fbfbfb;
+    margin: 0.5rem 1rem 0.5rem 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.portfolio-cards a {
+    text-decoration: none;
+}
+
+.portfolio-card {
+    border-left: solid;
+    border-width: 1rem;
+    padding-left: 0.5rem;
+}
+.role-text {
+    font-size: 0.75rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.film {
+    border-color: #39a0ed;
+}
+
+.animation {
+    border-color: #ff8484;
+}
+
+.design {
+    border-color: #ffd166;
+}
+
+.elearning {
+    border-color: #06d6a0;
+}
+
+.communications {
+    border-color: #ee4266;
 }
