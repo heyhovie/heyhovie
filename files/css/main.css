@@ -21,7 +21,7 @@ nav {
     align-items: center;
 }
 
-nav>a{
+nav > a {
     background-color: #7067cf;
     border-radius: 0.5rem;
     display: flex;
@@ -76,9 +76,16 @@ section {
 
 .portfolio-card {
     border-left: solid;
-    border-width: 1rem;
+    border-left-width: 1rem;
     padding-left: 0.5rem;
+    transform-origin: 0;
+    transition: 0.2s;
 }
+
+.portfolio-card:hover {
+    scale: 1.05;
+}
+
 .role-text {
     font-size: 0.75rem;
     font-style: italic;
@@ -103,4 +110,8 @@ section {
 
 .communications {
     border-color: #ee4266;
+}
+
+.web-development {
+    border-color: #7067cf;
 }
