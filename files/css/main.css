@@ -87,6 +87,7 @@ section {
 }
 
 .role-text {
+    color: rgb(110, 110, 110);
     font-size: 0.75rem;
     font-style: italic;
     margin: 0;
