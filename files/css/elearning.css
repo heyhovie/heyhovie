@@ -1,0 +1,122 @@
+* {
+    font-family: SF Mono Regular;
+}
+
+
+body {
+    background-color: #fbfbfb;
+}
+
+p {
+    color: #1e1e24;
+}
+
+header {
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    background-color: #06d6a0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand {
+    color: blue;
+    margin: 0.5rem 1rem;
+}
+
+.nav-link {
+color: #1e1e24;
+margin: 0.5rem 0 0.5rem 2rem;
+text-decoration: none;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+section {
+    padding: 1.25rem;
+}
+.hero-section h1 {
+    color: #06d6a0;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 2rem auto;
+}
+
+.portfolio-heading {
+    color: #1e1e24;
+    font-size: 1.5rem;
+}
+
+.portfolio-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-tags > p {
+    color: #fbfbfb;
+    margin: 0.5rem 1rem 0.5rem 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.portfolio-cards a {
+    text-decoration: none;
+}
+
+.portfolio-card {
+    border-left: solid;
+    border-left-width: 1rem;
+    padding-left: 0.5rem;
+    transform-origin: 0;
+    transition: 0.2s;
+}
+
+.portfolio-card:hover {
+    scale: 1.05;
+}
+
+.role-text {
+    color: rgb(110, 110, 110);
+    font-size: 0.75rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.film {
+    border-color: #39a0ed;
+}
+
+.animation {
+    border-color: #ff8484;
+}
+
+.design {
+    border-color: #ffd166;
+}
+
+.elearning {
+    border-color: #06d6a0;
+}
+
+.communications {
+    border-color: #ee4266;
+}
+
+.web-development {
+    border-color: #7067cf;
+}
+
+footer {
+    text-align: center;
+}
